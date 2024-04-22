@@ -1,0 +1,9 @@
+export { default as Home } from "./Home";
+export { default as Cart } from "./Cart";
+export { default as Shop } from "./Shop";
+export { default as Features } from "./Features";
+export { default as Detail } from "./Detail";
+export { default as Blog } from "./Blog";
+export { default as About } from "./About";
+export { default as Conact } from "./Contact";
+export { default as NotFound } from "./NotFound";

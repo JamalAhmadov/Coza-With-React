@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .font-playfair {
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+body {
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: 400; */
+    font-style: normal;
+
+}
+
+.paginateStyle {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+}
+
+.paginateStyle li {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    margin: 5px;
+    font-weight: 500;
+    background-color: rgb(36, 36, 36);
+}
+
+.paginateStyle li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: wheat;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
